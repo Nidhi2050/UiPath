@@ -1,0 +1,67 @@
+{
+  "name": "Recruitment_AI_System",
+  "projectId": "723e8d44-b875-45ad-a019-bbf13e96881e",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.AppleNumbers.Activities": "[1.0.2]",
+    "UiPath.Database.Activities": "[1.7.1]",
+    "UiPath.DocumentUnderstanding.Activities": "[2.17.0]",
+    "UiPath.Excel.Activities": "[3.4.1]",
+    "UiPath.GSuite.Activities": "[3.5.11]",
+    "UiPath.Mail.Activities": "[2.5.10]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.5.10]",
+    "UiPath.PDF.Activities": "[3.25.2]",
+    "UiPath.System.Activities": "[25.12.2]",
+    "UiPath.WebAPI.Activities": "[2.4.0]",
+    "UiPath.Word.Activities": "[2.3.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.187.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "08da01c3-ca40-4a26-9916-f33c34a1584b",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
